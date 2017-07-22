@@ -1,0 +1,5 @@
+[
+  // { "keys": ["ctrl+alt+x"], "command": "gfmtask_commit" },
+  { "keys": ["alt+x"], "command": "gfmtask_toggle_done" },
+  { "keys": ["alt+down"], "command": "gfmtask_next" }
+]

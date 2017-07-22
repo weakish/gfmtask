@@ -1,0 +1,14 @@
+[
+  {
+    "caption": "gfmtask: Toggle Done",
+    "command": "gfmtask_toggle_done"
+  },
+  {
+    "caption": "gfmtask: Commit",
+    "command": "gfmtask_commit"
+  },
+  {
+    "caption": "gfmtask: Next",
+    "command": "gfmtask_next"
+  }
+]

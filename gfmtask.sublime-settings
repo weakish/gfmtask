@@ -1,0 +1,15 @@
+{
+    // We will use the current file's path as the working directory
+    // of the external committer.
+    // We are using Sublime Text's `exec` api,
+    // which will freezes UI on Windows.
+    // So you may need an async committer on Windows.
+    "gfmtask_committer": "",
+    // If true, once marking a task as done,
+    // or reverting marking a task as done,
+    // gfmtask will also save the file, and invoke the external committer.
+    // If `gfmtask_committer` is not set, gfmtask will fall back to
+    // an internal committer, a.k.a
+    // `git commit -a --allow-empty-message -m ''`
+    "gfmtask_auto_commit": false
+}
